@@ -1,32 +1,56 @@
 .hero {
-  background-color: #F4F6FA;
+    background-color: #F4F6FA;
+    margin: 0 0 100px;
 }
 
 .hero__wrapper {
-  display: flex;
-  align-items: flex-start;
-  column-gap: 150px;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 20px;
+    margin: 0 auto;
 }
 
 .hero__content {
-  padding: 100px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero__image {
+    display: flex;
+    justify-content: flex-end; /* Прижимает картинку к правому краю блока */
+}
+
+.hero__img {
+    max-width: 660px; /* Ограничиваем ширину картинки */
+    height: auto; /* Сохраняем пропорции */
 }
 
 .hero__heading {
-  margin: 0 0 30px 0;
-  font-size: 40px;
-  line-height: 48px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0 0 24px 0;
+    color: #1E222E;
 }
 
 .hero__heading-highlight {
-  color: #476BF0;
+    color: #476BF0;
 }
 
 .hero__description {
-  margin: 0 0 30px 0;
-  font-size: 18px;
-  line-height: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 48px 0;
+    color: #1E222E;
+}
+
+.hero__btn {
+    padding: 18px 32px;
+    font-size: 15px;
+    line-height: 20px;
+    background-color: #476BF0;
+    color: #ffffff;
 }

@@ -4,6 +4,7 @@
 
 .header__wrapper {
   display: flex;
+  justify-content: space-between;
 }
 
 .header__logo {
@@ -11,6 +12,39 @@
   margin: 0 auto 0 0;
 }
 
+.header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  border-radius: 12px;
+  border: 1px solid #DBDFEC;
+  margin: 0 24px 0 0;
+}
+
 .header__btn {
   align-self: center;
+}
+
+.header__nav--clients .header__btn--clients {
+  background-color: #1E222E;
+  color: #ffffff;
+
+}
+
+.header__link--partners {
+
+}
+
+.header__language-switcher {
+  border-radius: 12px;
+  border: 1px solid #DBDFEC;
+  padding: 20px 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__btn-text {
+  margin: 0 12px 0 0;
 }
