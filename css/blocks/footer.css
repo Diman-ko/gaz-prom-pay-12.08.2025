@@ -1,44 +1,76 @@
 .footer {
-  padding: 20px 0;
-  background-color: #F4F6FA;
+    background-color: #F4F6FA;
+}
+
+.footer__logo {
+    margin: 0 0 40px;
 }
 
 .footer__wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: start;
-  padding: 40px 0;
+    display: grid;
+    grid-template-columns: 200px 340px 400px;
 
 }
+
+/* info */
+
+.footer__phone-text-full {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1E222E;
+}
+
+
+/* registation */
+.footer__registration {
+
+}
+
+.footer__registration-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__registration-clients {
+
+}
+
+.footer__registration-title {
+
+}
+
 
 .footer__description,
 .footer__box {
-  margin: 0 0 20px 0;
-}
-
-.footer__box {
-  display: flex;
-  flex-direction: column;
-  row-gap: 10px;
-}
-
-.footer__phone-text {
-  margin: 0;
-  text-align: center;
-}
-
-.footer__phone-link {
-  font-weight: 700;
+    margin: 0 0 20px 0;
 }
 
 .footer__btn {
-  margin: 0 0 60px 0;
+    margin: 0 0 60px 0;
 }
 
+.footer__box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.footer__phone-text {
+    margin: 0;
+    text-align: center;
+}
+
+.footer__phone-link {
+    font-weight: 700;
+}
+
+
 .footer__copyright {
-  text-align: center;
+    text-align: center;
 }
 
 .footer__copyright-link {
-  color: #0037EE;
+    color: #0037EE;
 }

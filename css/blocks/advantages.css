@@ -54,3 +54,11 @@
   color: #696E82;
   margin: 0;
 }
+
+.card-advantages__btn {
+    color: #1E222E;
+    padding: 14px 32px;
+    font-size: 15px;
+    line-height: 20px;
+    background-color: #FFFFFF;
+}
