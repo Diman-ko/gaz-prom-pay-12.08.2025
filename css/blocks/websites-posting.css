@@ -28,11 +28,16 @@
     gap: 32px;
 }
 
+.websites-posting__item {
+    display: flex;
+    flex-direction: column;
+}
+
 .websites-posting__logo {
     cursor: pointer;
 }
 
-.website-posting__img {
+.websites-posting__img {
     width: 286px;
     height: 326px;
     margin: 0 0 20px;

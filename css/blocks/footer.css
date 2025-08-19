@@ -2,29 +2,113 @@
     background-color: #F4F6FA;
 }
 
-.footer__logo {
-    margin: 0 0 40px;
-}
-
 .footer__wrapper {
     display: grid;
     grid-template-columns: 200px 340px 400px;
-
+    max-width: 1240px;
+    margin: 0;
+    padding: 40px 0;
+    justify-content: space-between;
 }
 
 /* info */
 
-.footer__phone-text-full {
+.footer__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo {
+    margin: 0 0 40px;
+}
+
+.footer__info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer__phones {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer__phone-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #6A6E80;
+    margin: 0 0 2px;
+    padding: 0;
+}
+
+.footer__phone {
     font-weight: 600;
     font-size: 20px;
     line-height: 28px;
     color: #1E222E;
+    margin: 0;
+    padding: 0;
 }
 
+.footer__feedback {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__feedback-descr {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0 0 12px;
+    padding: 0;
+    display: block;
+    color: #6A6E80;
+}
+
+.footer__feedback-btn {
+    padding: 12px 20px;
+    background-color: #1E222E;
+    color: #FFFFFF;
+}
+
+.footer__location {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer__location-text {
+    padding: 0;
+    margin: 0 0 8px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #6A6E80;
+}
+
+.footer__location-descr {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #476BF0;
+    text-align: center;
+    margin: 0 0 0 4px;
+}
 
 /* registation */
-.footer__registration {
 
+.footer__registration {
+    margin: 0;
+    padding: 20px 0 0;
+}
+
+.footer__registration-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
 }
 
 .footer__registration-list {
@@ -34,43 +118,113 @@
 }
 
 .footer__registration-clients {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__registration-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1E222E;
+    margin: 0 0 16px;
+}
+
+.footer__police-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 24px;
 
 }
 
 
-.footer__description,
-.footer__box {
-    margin: 0 0 20px 0;
+.footer__registration-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1E222E;
 }
 
-.footer__btn {
-    margin: 0 0 60px 0;
-}
+/* police */
 
-.footer__box {
+.footer__police {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
-}
-
-.footer__phone-text {
     margin: 0;
-    text-align: center;
+    padding: 20px 0 0;
 }
 
-.footer__phone-link {
-    font-weight: 700;
+.footer__police-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0;
+    margin: 0 0 48px;
+    list-style-type: none;
+}
+
+.footer__police-item {
+
+}
+
+.footer__police-link {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #6A6E80;
 }
 
 
-.footer__copyright {
-    text-align: center;
+/*  social */
+
+.footer__social-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
 }
 
-.footer__copyright-link {
-    color: #0037EE;
+.footer__social-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E3E5EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer__police-description {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #6A6E80;
+    margin: 0 0 12px;
+}
+
+.footer__date {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(106, 110, 128, 0.4);
+    margin: 0 0 20px;
+}
+
+
+.footer__btn {
+    display: flex;
+    gap: 8px;
+    padding: 0;
+    align-items: center;
+}
+
+
+.footer__btn-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #6A6E80;
 }
