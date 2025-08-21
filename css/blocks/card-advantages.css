@@ -1,34 +1,68 @@
 .card-advantages {
-  display: grid;
+  display: flex;
   align-items: center;
-  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
   gap: 85px;
   border-radius: 10px;
 }
 
-.card-advantages--reverse .card-advantages__content {
-  padding: 100px 0 100px 140px;
+.card-advantages--dark-grey,
+.card-advantages--light-grey {
+  gap: 10px;
+  min-height: 640px;
 }
 
-.card-advantages--heavenly {
+.card-advantages__heavenly {
   background-color: #A8DCFF;
 }
 
+.card-advantages__heavenly--partners {
+  background-color: #5E81FF;
+}
+
+
 .card-advantages--purple {
   background-color: #8CA3FF;
+}
+
+.card-advantages--light-grey {
+  background-color: #F4F6FA;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-advantages--dark-grey {
+  display: flex;
+  flex-direction: column;
+  background-color: #7F8499;
 }
 
 .card-advantages__content {
   padding: 90px 140px 90px 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
+}
+
+.card-advantages--reverse .card-advantages__content {
+  padding: 100px 0 100px 140px;
+}
+
+.card-advantages--reverse .card-advantages__content--part {
+  padding: 60px;
 }
 
 .card-advantages__heading {
-  margin: 0 0 25px 0;
+  display: flex;
+  margin: 0 0 20px 0;
+  font-weight: 700;
   font-size: 32px;
   line-height: 36px;
+  color: #1E222E;
+}
+
+.card-advantages--dark-grey .card-advantages__heading {
+  color: #FFFFFF;
 }
 
 .card-advantages__description {
@@ -37,12 +71,58 @@
   line-height: 24px;
 }
 
+.card-advantages__description--partners {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FFFFFF;
+  margin: 0 0 20px;
+}
+
+.card-advantages__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
 .card-advantages__image {
-  max-width: 100%; /* Картинка не выходит за ширину родителя */
-  height: auto; /* Сохраняет пропорции */
-  object-fit: cover; /* Сохраняет обрезку изображения */
+  width: 100%; /* Картинка не выходит за ширину родителя */
+  min-height: 520px; /* Сохраняет пропорции */
+}
+
+.card-advantages--dark-grey .card-advantages__image,
+.card-advantages--light-grey .card-advantages__image {
+  width: 600px; /* Картинка не выходит за ширину родителя */
+  min-height: 324px; /* Сохраняет пропорции */
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card-advantages__list {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  list-style-type: circle;
+  margin: 0;
+  color: #FFFFFF;
+  padding: 0 0 0 15px;
+}
+
+.card-advantages__text  {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
 }
 
 .card-advantages__btn {
+  color: #1E222E;
+  padding: 14px 32px;
+  font-size: 15px;
+  line-height: 20px;
+  background-color: #FFFFFF;
   margin: 24px 0 0 0;
 }
