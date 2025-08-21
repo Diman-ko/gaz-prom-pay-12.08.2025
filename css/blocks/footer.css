@@ -4,7 +4,7 @@
 
 .footer__wrapper {
     display: grid;
-    grid-template-columns: 200px 340px 400px;
+    grid-template-columns: 200px 400px 400px;
     max-width: 1240px;
     margin: 0;
     padding: 40px 0;
@@ -19,7 +19,7 @@
 }
 
 .footer__logo {
-    margin: 0 0 40px;
+    margin: 0 0 24px;
 }
 
 .footer__info-wrapper {
@@ -69,9 +69,13 @@
 }
 
 .footer__feedback-btn {
-    padding: 12px 20px;
+    padding: 12px 12px;
     background-color: #1E222E;
     color: #FFFFFF;
+    width: 143px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
 }
 
 .footer__location {
@@ -82,7 +86,7 @@
 
 .footer__location-text {
     padding: 0;
-    margin: 0 0 8px;
+    margin: 0;
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
@@ -107,8 +111,8 @@
 
 .footer__registration-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 60px;
+    grid-template-columns: repeat(2, 150px);
+    gap: 50px;
 }
 
 .footer__registration-list {
@@ -157,9 +161,9 @@
 .footer__police-list {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
     padding: 0;
-    margin: 0 0 48px;
+    margin: 0 0 31px;
     list-style-type: none;
 }
 

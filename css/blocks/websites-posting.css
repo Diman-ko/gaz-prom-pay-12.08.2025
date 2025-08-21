@@ -17,6 +17,7 @@
     text-align: center;
     color: #1E222E;
     margin: 0 auto 40px;
+    max-width: 520px;
 }
 
 .websites-posting__list {
@@ -57,5 +58,5 @@
     font-size: 15px;
     line-height: 20px;
     color: #696E82;
-    margin: 0 0 20px;
+    margin: 0;
 }
